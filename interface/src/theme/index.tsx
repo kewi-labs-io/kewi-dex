@@ -60,11 +60,11 @@ export function colors(darkMode: boolean): Colors {
     advancedBG: darkMode ? 'rgba(19, 7, 7, 1)' : 'rgba(255,255,255,0.6)',
 
     //primary colors
-    primary1: darkMode ? '#36cc0d' : '#ff007a',
-    primary2: darkMode ? '#3680E7' : '#FF8CC3',
-    primary3: darkMode ? '#4D8FEA' : '#FF99C9',
-    primary4: darkMode ? '#376bad70' : '#F6DDE8',
-    primary5: darkMode ? '#153d6f70' : '#FDEAF1',
+    primary1: darkMode ? '#36cc0d' : '#1ce601',
+    primary2: darkMode ? '#3680E7' : '#1ce601',
+    primary3: darkMode ? '#4D8FEA' : '#1ce601',
+    primary4: darkMode ? '#376bad70' : '#1ce601',
+    primary5: darkMode ? '#153d6f70' : '#1ce601',
 
     // color text
     primaryText1: darkMode ? '#6da8ff' : '#ff007a',
@@ -198,8 +198,8 @@ export const ThemedBackground = styled.div<{ backgroundColor?: string | undefine
   mix-blend-mode: color;
   background: ${({ backgroundColor }) =>
     `radial-gradient(50% 50% at 50% 50%, ${
-      backgroundColor ? backgroundColor : '#fc077d10'
-    } 0%, rgba(255, 255, 255, 0) 100%)`};
+      backgroundColor ? backgroundColor : '#1ce601'
+    } 0%, rgba(21, 236, 13, 0) 100%)`};
   transform: translateY(-100vh);
   will-change: background;
   transition: background 450ms ease;
