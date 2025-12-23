@@ -120,7 +120,7 @@ const InternalMenuItem = styled(Link)`
   }
 `
 
-const CODE_LINK = 'https://github.com/Uniswap/uniswap-interface'
+const CODE_LINK = 'https://github.com/kewi-labs-io/kewi-dex'
 
 export default function Menu() {
   const { account } = useActiveWeb3React()
@@ -140,11 +140,11 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem href="https://uniswap.org/">
+          <MenuItem href="https://kewi.io/">
             <Info size={14} />
             <div>About</div>
           </MenuItem>
-          <MenuItem href="https://docs.uniswap.org/">
+          <MenuItem href="https://docs.kewi.io/">
             <BookOpen size={14} />
             <div>Docs</div>
           </MenuItem>
@@ -156,7 +156,7 @@ export default function Menu() {
             <MessageCircle size={14} />
             <div>Discord</div>
           </MenuItem>
-          <MenuItem href="https://info.uniswap.org/">
+          <MenuItem href="https://info.kewi.io/">
             <PieChart size={14} />
             <div>Analytics</div>
           </MenuItem>

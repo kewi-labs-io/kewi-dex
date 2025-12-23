@@ -13,5 +13,5 @@ app.get('*', function(req, res) {
 // 设置监听端口
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Uniswap Interface running on port ${PORT}`);
+  console.log(`Kewi Swap running on port ${PORT}`);
 });

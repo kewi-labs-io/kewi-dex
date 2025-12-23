@@ -518,7 +518,7 @@ export default function AddLiquidity({
                           style={{ marginBottom: 8, fontWeight: 500, opacity: 0.8 }}
                           textAlign="center"
                         >
-                          You are the first liquidity provider for this Uniswap V3 pool.
+                          You are the first liquidity provider for this Kewiswap V3 pool.
                         </TYPE.body>
 
                         <TYPE.body fontWeight={500} textAlign="center" fontSize={14} style={{ opacity: 0.8 }}>
@@ -550,7 +550,7 @@ export default function AddLiquidity({
                   <TYPE.main fontSize={14} fontWeight={400} style={{ marginBottom: '.5rem', lineHeight: '125%' }}>
                     Your liquidity will only earn fees when the market price of the pair is within your range.{' '}
                     <ExternalLink
-                      href={'https://docs.uniswap.org/concepts/introduction/liquidity-user-guide#4-set-price-range'}
+                      href={'https://docs.kewi.io/concepts/introduction/liquidity-user-guide#4-set-price-range'}
                       style={{ fontSize: '14px' }}
                     >
                       Need help picking a range?

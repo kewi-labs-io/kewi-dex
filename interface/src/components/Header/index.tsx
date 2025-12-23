@@ -360,7 +360,10 @@ export default function Header() {
         <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
           Vote
         </StyledNavLink>
-        <StyledExternalLink id={`stake-nav-link`} href={'https://info.uniswap.org'}>
+        <StyledExternalLink id={`stake-nav-link`} href={'https://fun.kewi.io'}>
+          Launchpad <span style={{ fontSize: '11px', textDecoration: 'none !important' }}>↗</span>
+        </StyledExternalLink>
+        <StyledExternalLink id={`stake-nav-link`} href={'https://info.kewi.io'}>
           Charts <span style={{ fontSize: '11px', textDecoration: 'none !important' }}>↗</span>
         </StyledExternalLink>
       </HeaderLinks>

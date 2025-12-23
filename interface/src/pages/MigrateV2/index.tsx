@@ -112,7 +112,7 @@ export default function MigrateV2() {
           <BackArrow to="/pool" />
           <TYPE.mediumHeader>Migrate V2 Liquidity</TYPE.mediumHeader>
           <div>
-            <QuestionHelper text="Migrate your liquidity tokens from Uniswap V2 to Uniswap V3." />
+            <QuestionHelper text="Migrate your liquidity tokens from Uniswap V2 to Kewiswap V3." />
           </div>
         </AutoRow>
 

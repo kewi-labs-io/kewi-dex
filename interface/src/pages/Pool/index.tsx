@@ -138,7 +138,7 @@ export default function Pool() {
           {t('Learn')}
         </MenuItem>
       ),
-      link: 'https://docs.uniswap.org/',
+      link: 'https://docs.kewi.io/',
       external: true,
     },
   ]

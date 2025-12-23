@@ -122,9 +122,9 @@ export default function CTACards() {
 
   return (
     <CTASection>
-      <CTA1 href={'https://docs.uniswap.org/concepts/introduction/liquidity-user-guide'}>
+      <CTA1 href={'https://docs.kewi.io/concepts/introduction/liquidity-user-guide'}>
         <ResponsiveColumn>
-          <HeaderText>{t('Uniswap V3 is here!')}</HeaderText>
+          <HeaderText>{t('Kewiswap V3 is here!')}</HeaderText>
           <TYPE.body fontWeight={300} style={{ alignItems: 'center', display: 'flex', maxWidth: '80%' }}>
             {t('Check out our v3 LP walkthrough and migration guides.')}
           </TYPE.body>
@@ -134,7 +134,7 @@ export default function CTACards() {
           </RowBetween>
         </ResponsiveColumn>
       </CTA1>
-      <CTA2 href={'https://info.uniswap.org/#/pools'}>
+      <CTA2 href={'https://info.kewi.io/#/pools'}>
         <ResponsiveColumn>
           <HeaderText style={{ alignSelf: 'flex-start' }}>{t('Top pools')}</HeaderText>
           <TYPE.body fontWeight={300} style={{ alignSelf: 'flex-start' }}>

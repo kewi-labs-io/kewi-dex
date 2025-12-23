@@ -196,7 +196,7 @@ export default function Pool() {
               <>
                 <ButtonSecondary>
                   <RowBetween>
-                    <ExternalLink href={'https://v2.info.uniswap.org/account/' + account}>
+                    <ExternalLink href={'https://v2.info.kewi.io/account/' + account}>
                       Account analytics and accrued fees
                     </ExternalLink>
                     <span> ↗</span>

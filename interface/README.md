@@ -1,9 +1,9 @@
-# Uniswap Interface
+# Kewi Swap
 
-[![Unit Tests](https://github.com/Uniswap/uniswap-interface/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions/workflows/unit-tests.yaml)
-[![Integration Tests](https://github.com/Uniswap/uniswap-interface/actions/workflows/integration-tests.yaml/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions/workflows/integration-tests.yaml)
-[![Lint](https://github.com/Uniswap/uniswap-interface/actions/workflows/lint.yml/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions/workflows/lint.yml)
-[![Release](https://github.com/Uniswap/uniswap-interface/actions/workflows/release.yaml/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions/workflows/release.yaml)
+[![Unit Tests](https://https://github.com/kewi-labs-io/kewi-dex/actions/workflows/unit-tests.yaml/badge.svg)](https://https://github.com/kewi-labs-io/kewi-dex/actions/workflows/unit-tests.yaml)
+[![Integration Tests](https://https://github.com/kewi-labs-io/kewi-dex/actions/workflows/integration-tests.yaml/badge.svg)](https://https://github.com/kewi-labs-io/kewi-dex/actions/workflows/integration-tests.yaml)
+[![Lint](https://https://github.com/kewi-labs-io/kewi-dex/actions/workflows/lint.yml/badge.svg)](https://https://github.com/kewi-labs-io/kewi-dex/actions/workflows/lint.yml)
+[![Release](https://https://github.com/kewi-labs-io/kewi-dex/actions/workflows/release.yaml/badge.svg)](https://https://github.com/kewi-labs-io/kewi-dex/actions/workflows/release.yaml)
 
 An open source interface for Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
 
@@ -16,42 +16,10 @@ An open source interface for Uniswap -- a protocol for decentralized exchange of
 - Discord: [Uniswap](https://discord.gg/FCfyBSbCU5)
 - Whitepaper: [Link](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig)
 
-## Accessing the Uniswap Interface
+## Accessing the Kewi Swap
 
-To access the Uniswap Interface, use an IPFS gateway link from the
-[latest release](https://github.com/Uniswap/uniswap-interface/releases/latest),
+To access the Kewi Swap, use an IPFS gateway link from the
+[latest release](https://https://github.com/kewi-labs-io/kewi-dex/releases/latest),
 or visit [app.uniswap.org](https://app.uniswap.org).
 
 ## Development
-
-### Install Dependencies
-
-```bash
-yarn install
-```
-
-### Run
-
-```bash
-yarn start
-```
-
-## Contributions
-
-**Please open all pull requests against the `main` branch.**
-CI checks will run against all PRs.
-
-## Accessing Uniswap V2
-
-The Uniswap Interface supports swapping, adding liquidity, removing liquidity and migrating liquidity for 
-Uniswap protocol V2.
-
-- Swap on Uniswap V2: https://app.uniswap.org/#/swap?use=v2
-- View V2 liquidity: https://app.uniswap.org/#/pool/v2
-- Add V2 liquidity: https://app.uniswap.org/#/add/v2
-- Migrate V2 liquidity to V3: https://app.uniswap.org/#/migrate/v2
-
-## Accessing Uniswap V1
- 
-The Uniswap V1 interface for mainnet and testnets is accessible via IPFS gateways 
-linked from the [v1.0.0 release](https://github.com/Uniswap/uniswap-interface/releases/tag/v1.0.0).
